@@ -12,6 +12,6 @@ jobs:
       AGE: 25
     steps:
     - name: Greet
-      run: echo "Hello $MY_NAME! You are $AGE years old. Last name is ${{ env.LAST_NAME }}"
+      run: echo "Hello $MY_NAME! You are $AGE years old. Last name is $LAST_NAME"
       env:
         LAST_NAME: "Moradiya"
