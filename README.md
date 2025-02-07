@@ -25,4 +25,5 @@
     - create configuration variables for use across multiple workflows, and can define them at either the organization, repository or environment level.
 - Context Variables from Github Metadata
     - Contexts are a way to access information about workflow runs, variables, runner environments, jobs and steps.
-
+- Inputs for Manually triggered workflow
+    - When using the workflow_dispatch event, you can optionally specify inputs that are passed to the workflow.

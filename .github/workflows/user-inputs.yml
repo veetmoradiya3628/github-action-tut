@@ -1,0 +1,36 @@
+name: Test User Inputs Workflow
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Name of the person'
+        required: true
+        default: 'Veet'
+      age:
+        description: 'Age of the person'
+        required: true
+        default: 25
+      project_name:
+        description: 'Name of the project'
+        required: true
+        default: 'GitHub Actions'
+      number1:
+        description: 'First number'
+        required: true
+        default: 10
+      number2:
+        description: 'Second number'
+        required: true
+        default: 20
+jobs:
+  user_inputs_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Greet
+      run: echo "Hello ${{inputs.name}}! You are ${{inputs.age}} years old. Working on project ${{inputs.project_name}}"
+
+  add_numbers:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Add numbers
+      run: echo "Sum of ${{inputs.number1}} and ${{inputs.number2}} is $((inputs.number1 + inputs.number2))"
