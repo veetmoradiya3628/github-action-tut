@@ -16,3 +16,8 @@
     - Runners
         - A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time.
 
+#### Variables & Secret in Github Actions
+- Variables for single workflow
+    - The entire workflow, by using env at the top level of workflow file
+    - The contents of a job within a workflow
+    - A specific step within a job

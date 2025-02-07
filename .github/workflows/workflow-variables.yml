@@ -1,0 +1,17 @@
+name: Testing Workflow Variables
+on:
+  workflow_dispatch:
+
+
+env:
+  MY_NAME: "Veet"
+jobs:
+  greeting_job:
+    runs-on: ubuntu-latest
+    env:
+      AGE: 25
+    steps:
+    - name: Greet
+      run: echo "Hello $MY_NAME! You are $AGE years old. Last name is ${{ env.LAST_NAME }}"
+      env:
+        LAST_NAME: "Moradiya"
