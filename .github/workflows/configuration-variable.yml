@@ -1,0 +1,15 @@
+name: Testing configuration variables
+on:
+  workflow_dispatch:
+
+
+env:
+  NAME: "Veet"
+jobs:
+  hello_job:
+    runs-on: ubuntu-latest
+    env:
+      AGE: 25
+    steps:
+    - name: Greet
+      run: echo "Hello $NAME! You are $AGE years old. Working on project ${{ vars.PROJECT_NAME }}" # configuration variable using ${{ vars.PROJECT_NAME }}

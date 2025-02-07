@@ -21,3 +21,6 @@
     - The entire workflow, by using env at the top level of workflow file
     - The contents of a job within a workflow
     - A specific step within a job
+- Configuration Variables for Multiple workflows
+    - create configuration variables for use across multiple workflows, and can define them at either the organization, repository or environment level.
+
