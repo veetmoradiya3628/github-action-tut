@@ -27,3 +27,7 @@
     - Contexts are a way to access information about workflow runs, variables, runner environments, jobs and steps.
 - Inputs for Manually triggered workflow
     - When using the workflow_dispatch event, you can optionally specify inputs that are passed to the workflow.
+
+#### Runners in Github Actions
+    - Runners are the machines that execute jobs in a Github Actions Workflow
+    - Github Hosted vs. Self Hosted
