@@ -33,4 +33,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Add numbers
-      run: echo "Sum of ${{inputs.number1}} and ${{inputs.number2}} is $((inputs.number1 + inputs.number2))"
+      run: echo "Sum of ${{inputs.number1}} and ${{inputs.number2}} is ${{inputs.number1 + inputs.number2}}"
