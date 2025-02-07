@@ -23,4 +23,6 @@
     - A specific step within a job
 - Configuration Variables for Multiple workflows
     - create configuration variables for use across multiple workflows, and can define them at either the organization, repository or environment level.
+- Context Variables from Github Metadata
+    - Contexts are a way to access information about workflow runs, variables, runner environments, jobs and steps.
 

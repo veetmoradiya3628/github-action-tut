@@ -1,0 +1,22 @@
+name: Test Context Variables
+on:
+  workflow_dispatch:
+
+
+jobs:
+  simple-test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Showing context variables
+      run: |
+        echo "Repository name : ${{ github.repository }}"
+        echo "Repository owner : ${{ github.repository_owner }}"
+        echo "Repository URL : ${{ github.repository_url }}"
+        echo "Workflow name : ${{ github.workflow }}"
+        echo "Action name : ${{ github.action }}"
+        echo "Actor : ${{ github.actor }}"
+        echo "Event name : ${{ github.event_name }}"
+        echo "Event path : ${{ github.event_path }}"
+        echo "Workspace : ${{ github.workspace }}"
+        echo "SHA : ${{ github.sha }}"
+        echo "Ref : ${{ github.ref }}"
