@@ -1,4 +1,4 @@
-name: Reusable ESLint
+name: Reusable ESLint Workflow
 
 on:
   workflow_call:

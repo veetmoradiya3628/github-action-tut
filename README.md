@@ -38,6 +38,15 @@
 #### Reusable workflow in GitHub Actions
 - repeated usable workflow is workflow which can be reused across the organization repository and triggered with workflow_call dispatch.
 
+#### Starter workflow in Github Actions
+- Starter workflows are templates that help you to create your own Github Actions Workflows for a repository.
+- They offer an alternative to starting from a blank workflow file and are useful because some of the work will already have been done for you.
+- default starter workflow can be configured at organization level where public repository with .github name should exists and create workflow in it.
+- starter workflow can be considered as reusable across all the public repositories in the organization.
+
+#### Logging and Monitoring in Github Actions
+- Log retention & artifact retention policies in the Github 
+
 #### Learn Items
 
 - Automatic infrastructure provisioning with Terraform ? - need to learn terraform first.

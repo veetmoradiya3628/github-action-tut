@@ -1,4 +1,4 @@
-name: Run ESLint (Using Reusable Workflow)
+name: Run ESLint For Repository (Using Reusable Workflow)
 
 on:
   push:
