@@ -29,5 +29,16 @@
     - When using the workflow_dispatch event, you can optionally specify inputs that are passed to the workflow.
 
 #### Runners in Github Actions
-    - Runners are the machines that execute jobs in a Github Actions Workflow
-    - Github Hosted vs. Self Hosted
+- Runners are the machines that execute jobs in a Github Actions Workflow
+- Github Hosted vs. Self Hosted
+
+- How to setup a self hosted runners on Google Cloud VM ?
+    - To setup self hosted runner we can configure from github documentation.
+
+#### Reusable workflow in GA
+- repeated usable workflow
+
+#### Learn Items
+
+- Automatic infrastructure provisioning with Terraform ? - need to learn terraform first.
+- Automatic readme file creation using terradoc ? - need to learn terraform first.

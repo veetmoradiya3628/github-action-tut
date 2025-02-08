@@ -1,0 +1,12 @@
+name: Run ESLint (Using Reusable Workflow)
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+
+
+jobs:
+  lint:
+    uses: ./.github/workflows/reusable-lint.yml
