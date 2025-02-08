@@ -35,8 +35,8 @@
 - How to setup a self hosted runners on Google Cloud VM ?
     - To setup self hosted runner we can configure from github documentation.
 
-#### Reusable workflow in GA
-- repeated usable workflow
+#### Reusable workflow in GitHub Actions
+- repeated usable workflow is workflow which can be reused across the organization repository and triggered with workflow_call dispatch.
 
 #### Learn Items
 
