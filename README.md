@@ -51,3 +51,66 @@
 
 - Automatic infrastructure provisioning with Terraform ? - need to learn terraform first.
 - Automatic readme file creation using terradoc ? - need to learn terraform first.
+- Keyless authentication from Github Actions to Google cloud using Workload Identity Fedration.
+
+#### Hands on Items
+
+1. CI/CD for MEAN App
+    - Topics: GitHub Actions, Docker, Cloud Run, MongoDB Atlas
+    - Action Items:
+        - Set up GitHub Actions for linting, testing, and build
+        - Deploy Express backend to Cloud Run
+        - Deploy Angular frontend to Firebase Hosting
+2. Serverless To-Do App
+    - Topics: Firebase Hosting, Firestore, Cloud Functions
+    - Action Items:
+        - Deploy Angular frontend to Firebase Hosting
+        - Deploy Express API as a Cloud Function
+        - Automate deployment via GitHub Actions
+3. API Gateway with Cloud Endpoints
+    - Topics: Cloud Endpoints, JWT Auth, Cloud Run
+    - Action Items:
+        - Deploy Express API to Cloud Run
+        - Secure API with JWT (Firebase Auth)
+        - Automate deployment via GitHub Actions
+4. Background Job Processing with Pub/Sub
+    - Topics: Pub/Sub, Cloud Functions, Event-Driven Architecture
+    - Action Items:
+        - Publish messages from Express API to Pub/Sub
+        - Process messages with Cloud Functions
+        - Automate deployment via GitHub Actions
+5. Secrets Management with GCP
+    - Topics: GCP Secret Manager, Cloud Run, Secure Credentials
+    - Action Items:
+        - Store MongoDB credentials in Secret Manager
+        - Retrieve secrets dynamically in GitHub Actions
+        - Deploy MEAN app securely
+6. Automated MongoDB Backup
+    - Topics: MongoDB, Cloud Storage, Scheduled Backups
+    - Action Items:
+        - Use GitHub Actions cron job for backups
+        - Export MongoDB data using mongodump
+        - Upload to Cloud Storage
+7. Auto-Scaling API with Cloud Run
+    - Topics: Cloud Run, Load Testing, Auto-Scaling
+    - Action Items:
+        - Deploy Express API on Cloud Run
+        - Configure auto-scaling
+        - Use Locust for automated load testing
+8. Cloud Logging & Monitoring
+    - Topics: Cloud Logging, Monitoring, Alerts
+    - Action Items:
+        - Integrate Cloud Logging in Express backend
+        - Set up error rate alerts
+        - Automate deployment with GitHub Actions
+9. Real-time Notifications with Firestore
+    - Topics: Firestore Triggers, Cloud Functions, Push Notifications
+    - Action Items:
+        - Deploy Angular app to Firebase Hosting
+        - Listen for Firestore updates with Cloud Functions
+        - Send real-time notifications
+10. Automated PR Preview Deployments
+    - Topics: Firebase Hosting, GitHub Actions, Preview Deployments
+    - Action Items:
+        - Deploy Angular preview versions for each PR
+        - Automatically delete previews when PR is closed
